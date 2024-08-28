@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Aula 4</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 style="text-align: center;">Pizzaria Morellato</h1>
+  <p style="text-align: center;"><strong>Seja bem vindo ao nosso site de pedidos. Faça seu cadastro e então, selecione o que deseja.</strong></strongg></p>
+  <form method="post" action="teste.jsp">
+    Nome: <input type="text" name="nome"><br>
+    Endereço: <input type="text" name="endereco"><br>
+    Número: <input type="text" name="numero"><br>
+
+    Qual sabor: <select name="pizza">
+      <option value="calabresa">Calabresa</option>
+      <option value="frango">Muçarela</option>
+      <option value="portuguesa">Portuguesa</option>
+      <option value="quatro queijos">Quatro queijos</option>
+    </select>
+    <br>
+
+    Adicionais: <br>
+    Borda <input type="checkbox" name="borda"> Queijo extra<input type="checkbox" name="queijo extra">
+
+
+    Data de entrega: <input type="date" name="data de entrega"><br>
+
+    <input type="radio" name="entrega" value="entrega">
+    <input type="submit" value="Enviar">
+
+    
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
